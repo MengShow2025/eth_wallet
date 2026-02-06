@@ -17,9 +17,14 @@ build/
 logs/
 
 # 数据文件
-data/
-*.pkl
-*.pickle
+data/*.rar
+data/*.zip
+data/*.pkl
+data/*.pickle
+data/databases32G/*.pkl
+data/databases32G/*.pickle
+!data/README.md
+!data/databases32G/.gitkeep
 
 # IDE
 .vscode/
