@@ -1,0 +1,38 @@
+# 敏感配置文件
+eth_wallet_service.env
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# 日志文件
+*.log
+logs/
+
+# 数据文件
+data/
+*.pkl
+*.pickle
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+$RECYCLE.BIN/
+
+# 虚拟环境
+venv/
+env/
+ENV/
